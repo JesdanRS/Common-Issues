@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6709CE95-E42D-4AD2-A19A-DD999A24494E}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.config = NuGet.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{93A9E3A6-FCC1-4E0F-8FB2-656C558C283E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Innis.CommonIssues.Test", "test\Innis.CommonIssues.Test\Innis.CommonIssues.Test.csproj", "{1AA76664-2A36-472D-9C0F-F43316A04B9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Innis.CommonIssue.ArtifactBuilder", "test\Innis.CommonIssue.ArtifactBuilder\Innis.CommonIssue.ArtifactBuilder.csproj", "{56D92122-DF9E-4A63-9A69-6790AD2EEDBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Innis", "Innis", "{38B5627F-2F77-4B86-A2DA-F8167564DADA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Innis.Model", "Innis\src\Innis.Model\Innis.Model.csproj", "{B20526C2-640A-4257-87D3-24AE619BFA36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Innis.ReportMd.Grammar", "Innis\src\Innis.ReportMd.Grammar\Innis.ReportMd.Grammar.csproj", "{77305F2C-2460-471F-8555-E20A7D76C529}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Innis.ReportMd.Word", "Innis\src\Innis.ReportMd.Word\Innis.ReportMd.Word.csproj", "{8B9B87A3-8F25-4F39-BDED-7D7771594F43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "submodules", "submodules", "{82B455B6-45E8-463C-B0CB-8A2F12E59E6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AA76664-2A36-472D-9C0F-F43316A04B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA76664-2A36-472D-9C0F-F43316A04B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA76664-2A36-472D-9C0F-F43316A04B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA76664-2A36-472D-9C0F-F43316A04B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D92122-DF9E-4A63-9A69-6790AD2EEDBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D92122-DF9E-4A63-9A69-6790AD2EEDBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D92122-DF9E-4A63-9A69-6790AD2EEDBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D92122-DF9E-4A63-9A69-6790AD2EEDBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20526C2-640A-4257-87D3-24AE619BFA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20526C2-640A-4257-87D3-24AE619BFA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20526C2-640A-4257-87D3-24AE619BFA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20526C2-640A-4257-87D3-24AE619BFA36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77305F2C-2460-471F-8555-E20A7D76C529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77305F2C-2460-471F-8555-E20A7D76C529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77305F2C-2460-471F-8555-E20A7D76C529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77305F2C-2460-471F-8555-E20A7D76C529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B9B87A3-8F25-4F39-BDED-7D7771594F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B9B87A3-8F25-4F39-BDED-7D7771594F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B9B87A3-8F25-4F39-BDED-7D7771594F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B9B87A3-8F25-4F39-BDED-7D7771594F43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1AA76664-2A36-472D-9C0F-F43316A04B9D} = {93A9E3A6-FCC1-4E0F-8FB2-656C558C283E}
+		{56D92122-DF9E-4A63-9A69-6790AD2EEDBA} = {93A9E3A6-FCC1-4E0F-8FB2-656C558C283E}
+		{38B5627F-2F77-4B86-A2DA-F8167564DADA} = {82B455B6-45E8-463C-B0CB-8A2F12E59E6D}
+		{B20526C2-640A-4257-87D3-24AE619BFA36} = {38B5627F-2F77-4B86-A2DA-F8167564DADA}
+		{77305F2C-2460-471F-8555-E20A7D76C529} = {38B5627F-2F77-4B86-A2DA-F8167564DADA}
+		{8B9B87A3-8F25-4F39-BDED-7D7771594F43} = {38B5627F-2F77-4B86-A2DA-F8167564DADA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81C18927-0703-40C2-905E-A8D34116712F}
+	EndGlobalSection
+EndGlobal
